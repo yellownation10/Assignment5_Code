@@ -13,3 +13,9 @@
 ## How to run
 ```bash
 mvn clean test
+
+## Part 3 – Amazon tests
+    - Added `AmazonUnitTest.java` (specification-based + structural-based)
+    - Added `AmazonIntegrationTest.java` (specification-based + structural-based)
+    - `mvn clean test` passes locally
+    - GitHub Actions workflow: ✅
